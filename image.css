@@ -1,0 +1,26 @@
+
+img{
+margin:auto;
+border-radius:50%;
+width:225px;
+height:225px;
+}
+
+#img {
+  margin:auto;
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 225px;
+  line-height: 225px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  width: 225px;
+}
+
+#img:hover {
+  background: #ff7b29;
+  border-radius:50%;
+}
